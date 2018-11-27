@@ -6,7 +6,7 @@
 
 > View `./Vagrantfile`
 
-> - Box: **[debian/jessie64](https://app.vagrantup.com/debian/boxes/jessie64)**
+- Box: **[debian/jessie64](https://app.vagrantup.com/debian/boxes/jessie64)**
 - Network: [http://192.168.33.10/](http://192.168.33.10/)
 - Synced Folder: `./public`
 - Provider: [VirtualBox](https://www.virtualbox.org/)  
@@ -19,7 +19,7 @@
 
 > View `./bootstrap.sh`
 
-> - Apache2
+- Apache2
 - PHP 5.6 / PHP 7.1
 - MySQL (MariaDB 10.0)
 - CURL
