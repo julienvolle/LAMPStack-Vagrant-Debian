@@ -40,7 +40,8 @@ sudo apt-get install -y php7.1
 sudo apt-get install -y php7.1-cli
 sudo apt-get install -y php7.1-curl
 sudo apt-get install -y php7.1-mbstring
-sudo apt-get install -y php7.1-mysql
+sudo apt-get install -y php7.1-mysqli
+sudo apt-get install -y php7.1-pdo_mysql
 sudo apt-get install -y zip unzip php7.1-zip
 sudo apt-get install -y libapache2-mod-php7.1
 sudo service apache2 restart

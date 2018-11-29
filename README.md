@@ -20,10 +20,29 @@
 > View `./bootstrap.sh`
 
 - Apache2
-- PHP 5.6 / PHP 7.1
+- PHP 7.1
+ \- CLI  
+ \- CURL  
+ \- MBSTRING  
+ \- MySQLi & PDO  
+ \- Xdebug  
+ \- Zip  
 - MySQL (MariaDB 10.0)
 - CURL
 - Composer
 - Git  
 
 [https://www.vagrantup.com/docs/provisioning/shell.html](https://www.vagrantup.com/docs/provisioning/shell.html)
+
+---
+
+### Install
+
+> Install [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/).  
+Copy files in your project folder or clone this project with [Git](https://git-scm.com/).  
+Open console:
+
+	cd /go/in/your/project/folder/
+    vagrant up --provision
+
+> View in your browser [http://192.168.33.10/](http://192.168.33.10/)
