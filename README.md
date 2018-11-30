@@ -46,3 +46,10 @@ Open console:
     vagrant up --provision
 
 > View in your browser [http://192.168.33.10/](http://192.168.33.10/)
+
+---
+
+### Notes
+
+- Virtualization must be enabled in BIOS
+- Hyper-V must be disabled in Windows (in conflict with Docker)
